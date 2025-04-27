@@ -39,3 +39,81 @@ def is_even(int):
         return(False)
     else:
         return(True)
+
+#7
+def grade_check (score):
+	if(score >= 90):
+		return("A")
+	elif(score >= 80):
+		return("B")
+	elif(score >= 70):
+		return("C")
+	elif(score >= 60):
+		return("D")
+	else:
+		return("Fail")
+
+#8
+def username_password():
+	username = "John Doe"
+	password = "password124"
+	if(input() == username and input() == password):
+		return("pass")
+	else:
+		return("fail")
+
+#9
+def count():
+	a = 1
+	while(a <= 10):
+		print(a)
+		a += 1
+
+#10
+def times_table(num):
+	a = 1
+	while (a <= 12):
+		print(a * num)
+		a += 1
+
+#11
+def sum_tot(num):
+	tot = 0
+	a = 1
+	while(a <= num):
+		tot += a
+	return(tot)
+
+#12
+def countdown():
+	for i in range(-10, -1):
+		print(i * -1)
+
+#13
+def guess():
+	guess = int(input())
+	num = random.randint(1, 10)
+	while(guess != num):
+		guess = int(input())
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
